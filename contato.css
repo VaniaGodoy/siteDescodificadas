@@ -1,0 +1,150 @@
+*{ 
+  box-sizing: border-box;
+  font-family: 'Montserrat' , sans-serif;
+  margin: 0; 
+  padding: 0;
+}
+body{
+    background-color: rgb(251, 236, 242);
+    color: #263138; 
+}
+
+header{
+  background-color: rgb(250, 41, 124);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 80px;
+}
+
+header nav a{
+  color: #FFFFFF;
+  font-weight: 600;
+  padding: 32px;
+  text-decoration: none;
+}
+
+.container{
+    width: 99%;
+    margin: 5px;
+    padding: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+  
+h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    display: flex; 
+    justify-content: center;  
+    margin-top: 35px;
+}
+p.sugestao{
+    text-align: center;
+    font-weight: 100;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;  
+    padding: 15px;
+}
+  
+.form-grupo {  
+    width: 550px;
+    height: auto;
+    border-radius: 5px;     
+    margin-bottom: 20px;
+
+}
+  
+label, .pergunta {
+    display: flex;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: 550;
+    gap: 6px;
+}
+  
+input[type="text"],
+input[type="email"],
+input[type="telefone"] 
+input[type="notificacoes"] 
+textarea[type="mensagem"]{
+    width: calc(100% - 12px);
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+  }
+  
+  button {
+    width: 99%;
+    padding: 10px;
+    background-color:  rgb(245, 115, 167);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color:  rgb(250, 41, 124);
+  }  
+
+  .botaoRS{   
+    color: #f7f8f9;
+    text-decoration: none;    
+    margin: 16px;
+}
+
+footer {
+    background-color:  rgb(250, 41, 124);
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 45px 80px;/* vertical, horizontal */
+    font-size: 12px;
+}
+
+footer img,
+footer .titulo{
+    display: block;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+footer nav a {
+    color: #263138;
+    display: block;
+    margin: 16px;
+    text-decoration: none;   
+}
+
+footer p {
+    margin-bottom: 16px;
+    max-width: 350px;
+    
+}
+
+footer p a {
+    color: #263138;
+    text-decoration: none;
+    
+}
+
+#copyright {
+    background-color:  rgb(245, 115, 167);
+    color: #FFFFFF;
+    padding: 24px;
+    text-align: center;
+    font-size: 12px;
+}
+
+#copyright a {
+    color: #64033f;
+    text-decoration: none;
+    font-size: 12px;
+}
+

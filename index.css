@@ -1,0 +1,174 @@
+*{ 
+    box-sizing: border-box;
+    font-family: 'Montserrat' , sans-serif;
+    margin: 0; 
+    padding: 0;
+}
+body{
+    background-color: rgb(251, 236, 242);
+    color: #263138;
+}
+
+header{
+    background-color: rgb(250, 41, 124);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 80px;
+}
+
+header nav a{
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 18px;
+    text-decoration: none;
+}
+
+#inicio{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    /* topo, direita, baixo, esquerda*/
+    padding: 24px 80px 128px 80px;
+    position: relative;
+}
+
+#inicio img {
+    margin: 64px auto;/* vertical, horizontal */
+    border-radius: 5px;
+}
+
+h1,
+h2{
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.paragrafo {
+    line-height: 150%;
+    margin-top: 28px;
+    margin-bottom: 32px;
+}
+
+.botao {
+    background-color: rgb(250, 41, 124);
+    border-radius: 8px;
+    color: #FFFFFF;
+    text-decoration: none;
+    /* vertical, horizontal */
+    padding: 12px 20px;
+}
+
+.botao-transparente {
+    background-color: transparent;
+    color:  rgb(250, 41, 124);
+    /* vertical, horizontal */
+    padding: 16px 32px;
+    text-underline-offset: 4px;
+}
+
+#quemSomos {
+    display: flex;
+    align-items: 64px;
+    gap: 64px;
+    /* vertical, horizontal */
+    padding: 64px 80px;
+}
+
+#quemSomos li {
+    margin-bottom: 16px;
+    margin-left: 32px;
+}
+
+#quemSomos img {    
+    border-radius: 5px;
+}
+
+#produtos {
+    padding: 64px 80px;/* vertical, horizontal */
+    text-align: center;
+}
+
+#produtos img {    
+    border-radius: 5px;
+}
+
+#apresentacao {
+    padding: 64px 80px;/* vertical, horizontal */
+    text-align: center;
+}
+
+#apresentacao iframe {    
+    border-radius: 5px;
+}
+
+#localizacao {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;/* vertical, horizontal */
+}
+
+#localizacao iframe {   
+    border-radius: 5px;
+}
+
+.ondeEstamos {
+    position: relative;
+}
+
+.botaoRS{   
+    color: #f7f8f9;
+    text-decoration: none;    
+    margin: 16px;
+}
+
+footer {
+    background-color:  rgb(250, 41, 124);
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 45px 80px;/* vertical, horizontal */
+    font-size: 12px;
+}
+
+footer img,
+footer .titulo{
+    display: block;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+footer nav a {
+    color: #263138;
+    display: block;
+    margin: 16px;
+    text-decoration: none;   
+}
+
+footer p {
+    margin-bottom: 16px;
+    max-width: 350px;
+    
+}
+
+footer p a {
+    color: #263138;
+    text-decoration: none;
+    
+}
+
+#copyright {
+    background-color:  rgb(245, 115, 167);
+    color: #FFFFFF;
+    padding: 24px;
+    text-align: center;
+    font-size: 12px;
+}
+
+#copyright a {
+    color: #64033f;
+    text-decoration: none;
+    font-size: 12px;
+}
