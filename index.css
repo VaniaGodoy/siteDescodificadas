@@ -40,7 +40,7 @@ header nav a{
 #inicio img {
     margin: 64px auto;/* vertical, horizontal */
     border-radius: 5px;
-    margin-top: 90px;
+    margin-top: 90px;   
 }
 
 h1,
@@ -63,7 +63,7 @@ h2{
     text-decoration: none;
     /* vertical, horizontal */
     padding: 10px 18px;
-    font-size: 12px;
+    font-size: 12px;    
 }
 
 .botao-transparente {
@@ -99,6 +99,8 @@ h2{
 
 #produtos img {    
     border-radius: 5px;
+    margin-left: 32px;
+    justify-content: space-evenly;
 }
 
 #apresentacao {

@@ -47,7 +47,7 @@ h1 {
 }
 
 .produto {
-    background-color: #fff;
+    /* background-color:  rgb(246, 189, 211); */
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 25px;
@@ -55,13 +55,13 @@ h1 {
 }
   
 .produto img {
-    width: 295px;
-    height: auto;
+    width: 265px;
+    height: 265px;
     border-radius: 5px;     
     margin-bottom: 15px;
 }
   
-.produto h2 {
+.produto h3 {
     margin-top: 15px;
     margin-bottom: 5px;
 }
@@ -69,6 +69,7 @@ h1 {
 .produto p {
     color: #555;
     margin-bottom: 10px;
+    font-size: 12px;
 }
   
 .produto .preco {
