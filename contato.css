@@ -10,11 +10,14 @@ body{
 }
 
 header{
-  background-color: rgb(250, 41, 124);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 24px 80px;
+    background-color: rgb(250, 41, 124);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    position:fixed; 
+    width: 100%; 
+    z-index:999;
 }
 
 header nav a{
@@ -22,43 +25,48 @@ header nav a{
   font-weight: 600;
   padding: 32px;
   text-decoration: none;
+  font-size: 12px;
 }
 
-.container{
-    width: 99%;
-    margin: 5px;
-    padding: 18px;
+section.titulo{    
+    padding-top: 82px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
+    
+}
+
+section.form{
+    width: 99%;
+    padding-top: 10px;
+    padding-bottom: 20px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+
 }
   
 h2{
     text-align: center;
     font-weight: 600;
-    font-size: 22px;
-    display: flex; 
-    justify-content: center;  
-    margin-top: 35px;
+    font-size: 22px;    
 }
+
 p.sugestao{
     text-align: center;
     font-weight: 100;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;  
-    padding: 15px;
+    font-size: 12px;
+    padding: 12px;
 }
   
 .form-grupo {  
     width: 550px;
     height: auto;
-    border-radius: 5px;     
     margin-bottom: 20px;
 
 }
   
-label, .pergunta {
+label {
     display: flex;
     margin-bottom: 5px;
     font-size: 12px;
@@ -66,19 +74,15 @@ label, .pergunta {
     gap: 6px;
 }
   
-input[type="text"],
-input[type="email"],
-input[type="telefone"] 
-input[type="notificacoes"] 
-textarea[type="mensagem"]{
-    width: calc(100% - 12px);
+#nome, #email, #telefone{
+    width: 99%;
     padding: 8px;
     border-radius: 4px;
     border: 1px solid #ccc;
     font-size: 12px;
-  }
+}
   
-  button {
+button {
     width: 99%;
     padding: 10px;
     background-color:  rgb(245, 115, 167);
@@ -87,13 +91,13 @@ textarea[type="mensagem"]{
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
+}
   
-  button:hover {
+button:hover {
     background-color:  rgb(250, 41, 124);
-  }  
+}  
 
-  .botaoRS{   
+.botaoRS{   
     color: #f7f8f9;
     text-decoration: none;    
     margin: 16px;
@@ -106,6 +110,7 @@ footer {
     gap: 60px;
     padding: 45px 80px;/* vertical, horizontal */
     font-size: 12px;
+    
 }
 
 footer img,
@@ -139,7 +144,7 @@ footer p a {
     color: #FFFFFF;
     padding: 24px;
     text-align: center;
-    font-size: 12px;
+    font-size: 12px;         
 }
 
 #copyright a {

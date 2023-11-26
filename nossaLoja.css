@@ -14,14 +14,17 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 24px 80px;
+    padding: 10px 80px;
+    position:fixed; 
+    width:100%; 
+    z-index:999;
 }
-
 header nav a{
     color: #FFFFFF;
     font-weight: 600;
     padding: 32px;
     text-decoration: none;
+    font-size: 12px;
 }
 
 h1 {

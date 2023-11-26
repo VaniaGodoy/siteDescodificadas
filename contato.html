@@ -23,12 +23,16 @@
             <!-- <a href="nossaLoja.html">Nossa Loja</a> -->
         </nav>
     </header>
-<body>
-  <div>
+<body> 
+<section class="titulo">
+  <div>   
     <h2>TEM ALGUMA DÚVIDA OU SUGESTÃO?</h2>
     <p class="sugestao"> Fique à vontade para nos enviar uma mensagem <br> em breve entraremos em contato com você.</p>
   </div>
-  <div class="container">
+</section>
+
+<section class="form">
+  <div>
     <form id="cadastro-form">
       <div class="form-grupo">
         <label for="nome">Nome*</label>
@@ -43,10 +47,13 @@
         <input type="text" id="telefone" name="telefone" required>
       </div>
       <div class="form-grupo">
-        <label>Gostaria de receber novidades por e-mail?*</label>       
-            <p class="pergunta"><input type="radio" id="sim" name="notificacoes" value="sim" required>Sim        
-           <input type="radio" id="nao" name="notificacoes" value="nao">Não</p>
-        </label>
+        <label>Gostaria de receber novidades por e-mail?*          
+        </label>       
+            <label for="sim">
+              <input type="radio" id="sim" name="notificacoes" value="sim">Sim</label>
+            <label for="nao">        
+              <input type="radio" id="nao" name="notificacoes" value="nao">Não</label>
+        
       </div>
       <div class="form-grupo">
         <label for="mensagem">Mensagem*</label>
@@ -55,6 +62,7 @@
       <button type="submit">Enviar</button>
     </form>
   </div>
+</section>
   <footer>
     <div>
         <img src="./img/logoChris.png" width="48px" alt="PetLife">
