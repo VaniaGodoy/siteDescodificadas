@@ -1,26 +1,28 @@
-*{ 
+* {
     box-sizing: border-box;
-    font-family: 'Montserrat' , sans-serif;
-    margin: 0; 
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: rgb(251, 236, 242);
     color: #263138;
 }
 
-header{
+header {
     background-color: rgb(250, 41, 124);
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 80px;
-    position:fixed; 
-    width:100%; 
-    z-index:999;
+    /* vertical, horizontal */
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
 
-header nav a{
+header nav a {
     color: #FFFFFF;
     font-weight: 600;
     padding: 18px;
@@ -28,7 +30,7 @@ header nav a{
     font-size: 12px;
 }
 
-#inicio{
+#inicio {
     display: flex;
     align-items: center;
     gap: 32px;
@@ -38,13 +40,14 @@ header nav a{
 }
 
 #inicio img {
-    margin: 64px auto;/* vertical, horizontal */
+    margin: 64px auto;
+    /* vertical, horizontal */
     border-radius: 5px;
-    margin-top: 90px;   
+    margin-top: 90px;
 }
 
 h1,
-h2{
+h2 {
     font-weight: 600;
     font-size: 32px;
     margin-bottom: 32px;
@@ -63,12 +66,12 @@ h2{
     text-decoration: none;
     /* vertical, horizontal */
     padding: 10px 18px;
-    font-size: 12px;    
+    font-size: 12px;
 }
 
 .botao-transparente {
     background-color: transparent;
-    color:  rgb(250, 41, 124);
+    color: rgb(250, 41, 124);
     /* vertical, horizontal */
     padding: 16px 32px;
     text-underline-offset: 4px;
@@ -80,7 +83,7 @@ h2{
     align-items: 64px;
     gap: 64px;
     /* vertical, horizontal */
-    padding: 64px 80px;    
+    padding: 64px 80px;
 }
 
 #quemSomos li {
@@ -88,27 +91,29 @@ h2{
     margin-left: 32px;
 }
 
-#quemSomos img {    
+#quemSomos img {
     border-radius: 5px;
 }
 
 #produtos {
-    padding: 64px 80px;/* vertical, horizontal */
+    padding: 64px 80px;
+    /* vertical, horizontal */
     text-align: center;
 }
 
-#produtos img {    
+#produtos img {
     border-radius: 5px;
     margin-left: 32px;
     justify-content: space-evenly;
 }
 
 #apresentacao {
-    padding: 64px 80px;/* vertical, horizontal */
+    padding: 64px 80px;
+    /* vertical, horizontal */
     text-align: center;
 }
 
-#apresentacao iframe {    
+#apresentacao iframe {
     border-radius: 5px;
 }
 
@@ -116,10 +121,11 @@ h2{
     display: flex;
     align-items: center;
     gap: 64px;
-    padding: 64px 80px;/* vertical, horizontal */
+    padding: 64px 80px;
+    /* vertical, horizontal */
 }
 
-#localizacao iframe {   
+#localizacao iframe {
     border-radius: 5px;
 }
 
@@ -127,23 +133,24 @@ h2{
     position: relative;
 }
 
-.botaoRS{   
+.botaoRS {
     color: #f7f8f9;
-    text-decoration: none;    
+    text-decoration: none;
     margin: 16px;
 }
 
 footer {
-    background-color:  rgb(250, 41, 124);
+    background-color: rgb(250, 41, 124);
     display: flex;
     justify-content: space-between;
     gap: 60px;
-    padding: 45px 80px;/* vertical, horizontal */
+    padding: 45px 80px;
+    /* vertical, horizontal */
     font-size: 12px;
 }
 
 footer img,
-footer .titulo{
+footer .titulo {
     display: block;
     font-weight: 600;
     margin-bottom: 24px;
@@ -153,23 +160,23 @@ footer nav a {
     color: #263138;
     display: block;
     margin: 16px;
-    text-decoration: none;   
+    text-decoration: none;
 }
 
 footer p {
     margin-bottom: 16px;
     max-width: 350px;
-    
+
 }
 
 footer p a {
     color: #263138;
     text-decoration: none;
-    
+
 }
 
 #copyright {
-    background-color:  rgb(245, 115, 167);
+    background-color: rgb(245, 115, 167);
     color: #FFFFFF;
     padding: 24px;
     text-align: center;
