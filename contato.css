@@ -31,8 +31,8 @@ header nav a {
     text-transform: uppercase;
 }    
 
-section.titulo {
-    padding-top: 82px;
+section.titulo {   
+    padding-top: 110px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
