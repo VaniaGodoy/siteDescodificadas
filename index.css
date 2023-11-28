@@ -27,7 +27,8 @@ header nav a {
     font-weight: 600;
     padding: 18px;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 
 #inicio {
@@ -43,7 +44,7 @@ header nav a {
     margin: 64px auto;
     /* vertical, horizontal */
     border-radius: 5px;
-    margin-top: 90px;
+    margin-top: 120px;
 }
 
 h1,
@@ -53,42 +54,48 @@ h2 {
     margin-bottom: 32px;
 }
 
+h3 {
+    font-weight: 600;
+    font-size: 20px; 
+}
+
 .paragrafo {
     line-height: 150%;
-    margin-top: 28px;
-    margin-bottom: 32px;
+    padding: 15px 0px 15px 0px;    
 }
 
 .botao {
     background-color: rgb(250, 41, 124);
     border-radius: 8px;
     color: #FFFFFF;
-    text-decoration: none;
     /* vertical, horizontal */
     padding: 10px 18px;
-    font-size: 12px;
+    text-decoration: none;    
+    font-size: 15px;    
 }
 
-.botao-transparente {
+.botao-transparente{
     background-color: transparent;
-    color: rgb(250, 41, 124);
-    /* vertical, horizontal */
-    padding: 16px 32px;
-    text-underline-offset: 4px;
-    font-size: 12px;
+    color: rgb(250, 41, 124);    
+    font-size: 15px;
+    text-decoration: none;   
+}
+.botao-transparente:hover{
+    color: #a30df3;
 }
 
 #quemSomos {
     display: flex;
-    align-items: 64px;
-    gap: 64px;
+    align-items: 54px;
+    gap: 34px;
     /* vertical, horizontal */
     padding: 64px 80px;
+    text-align: justify;        
 }
 
 #quemSomos li {
-    margin-bottom: 16px;
-    margin-left: 32px;
+    margin: 32px 32px;  
+    line-height: 25px;
 }
 
 #quemSomos img {
@@ -121,8 +128,7 @@ h2 {
     display: flex;
     align-items: center;
     gap: 64px;
-    padding: 64px 80px;
-    /* vertical, horizontal */
+    padding: 64px 80px;/* vertical, horizontal */
 }
 
 #localizacao iframe {
@@ -131,6 +137,7 @@ h2 {
 
 .ondeEstamos {
     position: relative;
+    padding: 25px;
 }
 
 .botaoRS {
@@ -146,7 +153,7 @@ footer {
     gap: 60px;
     padding: 45px 80px;
     /* vertical, horizontal */
-    font-size: 12px;
+    font-size: 13px;
 }
 
 footer img,
@@ -154,10 +161,11 @@ footer .titulo {
     display: block;
     font-weight: 600;
     margin-bottom: 24px;
+    color: #fff;
 }
 
 footer nav a {
-    color: #263138;
+    color: #fff;
     display: block;
     margin: 16px;
     text-decoration: none;
@@ -166,11 +174,12 @@ footer nav a {
 footer p {
     margin-bottom: 16px;
     max-width: 350px;
-
+    font-size: 13px;
+    color: #fff;
 }
 
 footer p a {
-    color: #263138;
+    color: #fff;
     text-decoration: none;
 
 }
@@ -180,11 +189,11 @@ footer p a {
     color: #FFFFFF;
     padding: 24px;
     text-align: center;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 #copyright a {
-    color: #64033f;
+    color: #dd2195;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 13px;
 }
