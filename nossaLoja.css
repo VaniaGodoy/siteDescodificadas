@@ -7,7 +7,7 @@
 
   body {
       background-color: rgb(251, 236, 242);
-      color: #263138;
+      color:#7b768d;
   }
 
   header {
@@ -70,14 +70,14 @@
   }
 
   .produto p {
-      color: #555;
+      color:#7b768d;
       margin-bottom: 10px;
-      font-size: 12px;
+      font-size: 13px;
   }
 
   .produto .preco {
       font-weight: bold;
-      color: #333;
+      color:#7b768d;
       font-size: 15px;
   }
 
