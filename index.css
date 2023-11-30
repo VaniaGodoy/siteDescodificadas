@@ -28,32 +28,31 @@ header nav a {
     padding: 18px;
     text-decoration: none;
     font-size: 15px;
-    text-transform: uppercase;
+    text-transform: uppercase;    
 }
 
-
-#inicio{ 
-   background-image: url(./img/banner1.png);
+#inicio {     
+    background-image: url(./img/banner2.png);
     background-size:cover;
-    position: relative; 
-    background-repeat: no-repeat;     
-    height: 380px;
+    background-repeat: no-repeat;
+    position:static;     
+    background-position-y: 42px;       
+    height: 398px;
     display: flex;
     justify-content: center;
     align-items: end;     
-    margin-bottom: 95px;
-    padding-top: 50px;
+    margin-bottom: px;    
 }
 
 .titulo-principal{
-    text-align: center;      
+    text-align: end;      
     color:#7b768d;     
-    line-height: 15px; 
-    font-weight: 800; 
-    font-size: 12px; 
+    line-height: 1.2rem; 
+    font-weight: bold; 
+    font-size: 15px; 
     padding-top: 20px;
-    padding-left: 180px;
-    padding-bottom: 20px; 
+    padding-left: 380px;
+    padding-bottom: 18px; 
     text-transform: uppercase;  
 }
 
@@ -101,6 +100,19 @@ h3 {
     color: #8b12cb;
 }
 
+#loja {
+    padding: 64px 80px;
+    /* vertical, horizontal */
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+#loja img {
+    border-radius: 5px;
+    margin-left: 30px;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+}
 #quemSomos {
     display: flex;
     align-items: 64px;
