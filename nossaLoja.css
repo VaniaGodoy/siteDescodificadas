@@ -30,7 +30,7 @@
       text-transform: uppercase;
   }
 
-  h1 {
+  .titulo-principal {
       width: 100%;
       text-align: center;
       margin: 0 auto;
@@ -39,11 +39,20 @@
       justify-content: center;
   }
 
+  .paragrafo-titulo {
+      width: 100%;
+      text-align: center;
+      margin: 0 auto;
+      padding-top: 20px;
+      display: flex;
+      justify-content: center;
+  }
+
 
   .container {
       width: 97%;
       margin: 15px;
-      padding: 28px;
+      padding: 25px;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-evenly;
