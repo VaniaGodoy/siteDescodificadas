@@ -2,167 +2,386 @@
 <html lang="pt-br">
 
 <head>
+    <!-- Meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Ateliê da Chris - Costura Criativa e Artesanato">
     <meta name="keywords" content="ateliê, Chris, costura, artesanato, criativo">
-    <meta name="author" content="Nome do Autor">
-
-    <link rel="icon" href="./img/logoChris.png" type="image/x-icon">
-    <link rel="stylesheet" href="index.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@300;400;700&display=swap"
-        rel="stylesheet">
-
+    <meta name="author" content="Vania Godoy">
+    <!-- Ícone da página -->
+    <link rel="icon" href="./img/logoChris.png" type="image/x-icon">   
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="./css/resete.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="stylesheet" href="./css/nossaLoja.css">
+    <!-- Título da página -->
     <title>Ateliê da Chris</title>
 </head>
 
-<body>
+<body id="topo">
+    <!-- Menu Lateral Sidebar -->
     <header>
-        <a href="index.html">
-            <img src="./img/logoChris.png" width="78px" alt="Logo do Ateliê da Chris">
-        </a>
-
-        <nav>
-            <a href="#inicio">Início</a>
-            <a href="#quemSomos">Quem somos</a>
-            <a href="#produtos">Produtos</a>
-            <a href="#localizacao">Localização</a>
-            <a href="contato.html">Contato</a>
-            <a href="nossaLoja.html">Nossa Loja</a>
+        <!-- Navegação -->
+        <nav id="mySidenav" class="sidenav">
+            <img src="./img/logoChris.png" alt="Logo do Ateliê da Chris" class="header_logo-Sidebar">
+            <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
+            <li><a href="#inicio">Início</a></li>
+            <li> <a href="#quemSomos">Quem somos</a></li>
+            <li><a href="#album">Album</a></li>
+            <li><a href="#localizacao">Localização</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#nossaLoja">Nossa Loja</a></li>
         </nav>
+        <span class="openNav" onclick="openNav()">&#9776;</span>
     </header>
 
-    <main>
-        <section id="inicio">
-            <div>
-                <h1 class="titulo-principal">
-                    Venha conhecer esse mundo maravilhoso cheio de encanto e criatividade,<br> onde tecidos viram lindas
-                    peças exclusivas para cada cliente!
-                </h1>
-            </div>
+    <!-- Conteúdo principal da página -->
+    <main class="main" id="main">
+        <section id="inicio">            
+            <img src="./img/logoChris.png" alt="" class="logo__banner">
+            <h1 class="titulo__banner">sua loja de aviamentos & artesanto no litoral</h1>   
+            <div class="container__pesquisa">
+                <input class="pesquisa" type="text" id="txt__pesquisa" placeholder="Olá, o que procura hoje?" />
+                <img src="/img/search.png" id="btn__pesquisa" class="btn__pesquisa" alt="pesquisar" />
+            </div>                         
         </section>
+        
+        
+        <section id="slide" class="slide">
+            <h1 class="titulo__slide">
+                Desvende um mundo mágico de criatividade!</h1>
+               <p class="paragrafo__slide">Imagine um lugar onde tecidos se transformam em peças exclusivas e encantadoras,<br>feitas sob medida para realçar sua beleza e personalidade.</p> 
+            
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="./img/incio1.jpeg" alt="Puxa saco e bate mao">
+                </div>
 
-        <section id="loja">
-            <div>
-                <img src="./img/incio1.jpeg" alt="Puxa saco e bate mao" width="410" height="350">
-                <img src="./img/inicio3.jpg" alt="Jogo americano" width="410" height="350">
-                <img src="./img/inicio2.jpeg" alt="Kit cozinha" width="410" height="350">
-            </div>
-        </section>
+                <div class="mySlides fade">
+                    
+                <img src="./img/inicio3.jpg" alt="Jogo americano">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="./img/inicio2.jpeg" alt="Kit cozinha">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="./img/necessaireEnfermagem.jpeg" alt="Kit cozinha">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="./img/kitAventalTouca.jpg" alt="Kit cozinha">
+                </div>
+
+                <div style="text-align:center">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+        </section>       
 
         <section id="quemSomos">
+            <article>
             <div>
-                <h2>Empreendedoras do Ateliê da Chris</h2>
-                <p class="paragrafo">
-                    O Ateliê da Chris nasceu em 2014 quando umas das integrantes fez o curso de costura criativa para
-                    hobbies, desde então não paramos. Já são quase 10 anos nos aperfeiçoando, criando e trabalhando com
-                    o que amamos a Costura Criativa!</p>
-                <p class="paragrafo">Nossas peças são feitas com muito amor e dedicação, pensada em cada detalhe para
-                    quem vai usar. É muito gratificante ver o resultado final e ver a reação de cada cliente, a alegria
-                    o encontro não tem preço. Somos gratas e felizes em atendê-los.</p>
+                <h2 class="titulo__quemSomos" >Empreendedoras do Ateliê da Chris</h2>
+                <p class="paragrafo__quemSomos">
+                    O Ateliê da Chris foi fundado em 2014, quando uma de nossas integrantes, Maraci, se aventurou no
+                    curso de costura criativa por hobby. Desde então, temos nos dedicado incansavelmente à arte da
+                    Costura Criativa, aprimorando nossas habilidades e criando peças únicas com paixão e dedicação.
+                    Estamos há quase uma década trabalhando com o que amamos!</p>
+                <p class="paragrafo__quemSomos">Cada peça que confeccionamos é feita com muito amor e atenção aos detalhes,
+                    pensando sempre no bem-estar e na satisfação de quem irá usá-la. A maior recompensa para nós é ver o
+                    produto final e testemunhar a alegria e o encantamento de nossos clientes. Somos imensamente gratas
+                    e felizes por poder atendê-los e fazer parte de momentos especiais.</p>
                 <ul>
-                    <li>Maraci foi quem fez o curso e ensinou todas. Criativa e inovadora, ama confeccionar bolsas e
-                        mochilas.</li>
-                    <li>Chris a mãe que leva o nome da marca e ama fazer peças de cozinha e bordados.</li>
-                    <li>Marisa quem cuida da parte digital, vendas e divulgação da loja.</li>
+                    <li>Maraci: Criativa e inovadora, foi quem deu início a tudo ao fazer o curso de costura criativa.
+                        Ela adora confeccionar bolsas e mochilas, sempre trazendo novidades e estilos únicos.</li>
+                    <li> A mãe que dá nome à nossa marca, apaixonada por criar peças para a cozinha e bordados, sempre
+                        com um toque especial e personalizado.</li>
+                    <li>Responsável pela parte digital, vendas e divulgação da loja, garantindo que nossas criações
+                        alcancem você com a mesma dedicação e cuidado que temos em cada etapa do processo.</li>
                 </ul>
+                <p class="paragrafo__quemSomos">No Ateliê da Chris, transformamos tecidos em arte e sonhos em realidade. Venha
+                    conhecer nosso trabalho e se encantar com cada detalhe!</p>
             </div>
-            <img src="./img/elas.jpeg" alt="Foto das Empreendedoras" width="1024" height="580">
+            </article>
+            <img src="./img/elas.jpeg" alt="Foto das Empreendedoras" width="1024" height="580">        
         </section>
 
         <section id="apresentacao">
-            <h2>Conheça a loja Ateliê da Chris</h2>
-            <p class="paragrafo_produtos">
+            <article>
+            <h2 class="titulo__apresentacao">Conheça a loja Ateliê da Chris</h2>
+            <p class="paragrafo__apresentacao">
                 Nossa loja é especialista em costura criativa, bordados e criação de peças únicas.
             </p>
-            <iframe width="746" height="746" src="https://www.youtube.com/embed/_UZYsPWPVKA?si=kDK2Zipt-GhMCJ9j"
+            <iframe width="640" height="480" src="https://www.youtube.com/embed/_UZYsPWPVKA?si=kDK2Zipt-GhMCJ9j"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen>
             </iframe>
+        </article>
         </section>
 
-        <section id="produtos">
-            <h2>Venha conferir!</h2>
-            <p class="paragrafo_produtos">
-                Explore a elegância acessível da nossa loja virtual. De acessórios requintados a decoração exclusiva, oferecemos produtos que refletem bom gosto e sofisticação. Descubra o luxo em cada clique.
-            </p>
-            <img src="./img/kitFraldas.jpeg" alt="KitFraldas" width="410" height="350">
-            <img src="./img/bolsaEnfermagem.jpeg" alt="KitEnfermagem" width="410" height="350">
-            <img src="./img/kitBebe.jpeg" alt="KitBebe" width="410" height="350">
-           
-            <a class="botao" href="nossaLoja.html">Conheça nossos Produtos</a>
+        <section id="album">
+            <article>
+                <h2 class="titulo__album">Venha conferir!</h2>
+                <p class="paragrafo__album">
+                    Descubra a elegância acessível em nossa loja virtual. De acessórios requintados a decorações exclusivas,<br>
+                    oferecemos produtos que refletem bom gosto e sofisticação.<br> Experimente o luxo a cada clique.
+                </p>
+                <!-- Container principal do álbum de fotos -->
+                <div class="photo-album">
+                    <!-- Cada imagem no álbum com classes específicas para estilo -->
+                    <img src="./img/mochilaCoroa.jpeg" alt="Imagem 1" class="img1">
+                    <img src="./img/kitBebeRosa.jpg" alt="Imagem 2" class="img2">
+                    <img src="./img/kitBebe.jpeg" alt="Imagem 3" class="img3">
+                    <img src="./img/kitJeans.jpeg" alt="Imagem 4" class="img4">
+                    <img src="./img/mochilaMinie.jpeg" alt="Imagem 5" class="img5">
+                    <img src="./img/mochilaBeijaflor.jpeg" alt="Imagem 6" class="img6">
+                    <img src="./img/kitFraldas.jpeg" alt="Imagem 7" class="img7">
+                </div>
+                <a class="btn__album" href="#nossaLoja">Conheça nossa Loja</a>
+            </article>
         </section>
 
         <section id="localizacao">
+           
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.4835165296777!2d-47.553240699999996!3d-24.7446058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94daa27694e02c89%3A0x15beb858184c2696!2sAv.%20Copacabana%2C%20520%20-%20loja%203%20-%20Balne%C3%A1rio%20Monte%20Carlo%2C%20Ilha%20Comprida%20-%20SP%2C%2011925-000!5e0!3m2!1spt-BR!2sbr!4v1700655044139!5m2!1spt-BR!2sbr"
-                width="600" height="480" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                width="580" height="380" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+           
 
             <div>
+                <article>
                 <div class="ondeEstamos">
-                    <h3>Onde estamos ◘</h3>
-                    <p class="paragrafo">
+                    <h3 class="titulo__localizacao">Onde estamos ◘</h3>
+                    <p class="paragrafo__localizacao">
                         Av. Copacabana, 520 - Balneário Monte Carlo, Ilha Comprida - SP, 11925-000
                     </p>
-                    <a class="botao-transparente" href="https://maps.app.goo.gl/AUhaVJ2ueKetTorG8"
+                    <a class="btn__localizacao" href="https://maps.app.goo.gl/AUhaVJ2ueKetTorG8"
                         target="_blank">Localização</a>
                 </div>
 
                 <div class="ondeEstamos">
-                    <h3>Com o que trabalhamos no Ateliê ♥</h3>
-                    <p class="paragrafo">
+                    <h3 class="titulo__localizacao">Com o que trabalhamos no Ateliê ♥</h3>
+                    <p class="paragrafo__localizacao">
                         O Ateliê trabalha com peças artesanais à pronta entrega e encomendas. Temos também materiais
-                        para diversos tipos de artesanato.
+                        para diversos tipos de artesanato.Saiba mais
                     </p>
-                    <a class="botao-transparente" href="https://wa.me/5513996025559" target="_blank">Maiores
-                        informações</a>
+                    <a class="btn__localizacao" href="https://wa.me/5513996025559" target="_blank">WhatsApp</a>
                 </div>
 
                 <div class="ondeEstamos">
-                    <h3>Duvídas ?</h3>
-                    <p class="paragrafo">
-                        Nós queremos te ouvir.</p>
-                    <a class="botao-transparente" href="contato.html" target="_blank">Contato</a>
+                    <h3 class="titulo__localizacao">Nossas Redes Sociais</h3>
+                    <p class="paragrafo__localizacao">
+                        visite-nos.</p>
+                    <a class="btn__localizacao" href="https://www.instagram.com/ateliedachris.oficial/"
+                        target="_blank">Instagram</a><br><br>
+                    <a class="btn__localizacao" href="https://www.facebook.com/ateliedachris2"
+                        target="_blank">Facebook</a>
+                </div>
+            </div>
+        </article>
+        </section>
+    
+        <section id="contato">           
+            <article >               
+                    <h2 class="titulo__contato">Tem alguma duvida ou sugestão?</h2>
+                    <p class="paragrafo__contato"> Fique à vontade para nos enviar uma mensagem em breve entraremos em
+                        contato com você.
+                    </p>               
+
+            <section class="form">
+                <div>
+                    <form id="cadastro-form">
+                        <div class="form-grupo">
+                            <label for="nome">Nome*</label>
+                            <input type="text" id="nome" name="nome" >
+                        </div>
+                        <div class="form-grupo">
+                            <label for="email">E-mail*</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-grupo">
+                            <label for="telefone">Telefone*</label>
+                            <input type="text" id="telefone" name="telefone">
+                        </div>
+                        <div class="form-grupo">
+                            <label>Gostaria de receber novidades por e-mail?*
+                            </label>
+                            <label for="sim">
+                                <input type="radio" id="sim" name="notificacoes" value="sim">Sim</label>
+                            <label for="nao">
+                                <input type="radio" id="nao" name="notificacoes" value="nao">Não</label>
+
+                        </div>
+                        <div class="form-grupo">
+                            <label for="mensagem">Mensagem*</label>
+                            <textarea id="mensagem" name="mensagem" rows="8" cols="72"></textarea>
+                        </div>
+                        <button class="btn-contato" type="submit" onclick="enviar()">Enviar</button>
+                    </form>
+                </div>            
+            </section>
+        </article>
+        </section>
+
+        <section id="nossaLoja">
+            <h1 class="titulo__Loja">Nossos Produtos</h1>
+            <p class="paragrafo__Loja">Bem-vindo à nossa loja virtual! Explore um mundo de possibilidades e descubra
+            produtos que tornam a vida mais emocionante e cheia de charme.</p>
+            <div class="container__Loja">
+
+                <div class="produto__Loja">
+                    <img src="img/kitBebeRosa.jpg" alt="Produto 1">
+                    <h3>kit para Bebe Rosa</h3>
+                    <p>Mochila, porta documentos e<br>duas fraldas tudo personalizado.</p>
+                    <p class="preco">R$ 150,00</p>
+                    <button class="btn__Loja">Comprar</button>
+                </div>
+
+                <div class="produto__Loja">
+                    <img src="img/kitFraldas.jpeg" alt="Produto 2">
+                    <h3>Kit Fraldas</h3>
+                    <p>Barradinho de tecido e nome bordado.</p>
+                    <p class="preco">R$ 60,00</p>
+                    <button class="btn__Loja">Comprar</button>
+                </div>
+
+                <div class="produto__Loja">
+                    <img src="img/kitSaude.jpeg" alt="Produto 3">
+                    <h3>Kit Consulta do Bebê</h3>
+                    <p>Necessaire, fralda e porta documentos</p>
+                    <p class="preco">R$ 80,00</p>
+                    <button class="btn__Loja">Comprar</button>
+                </div>
+
+                <div class="produto__Loja">
+                    <img src="img/kitMonica.jpeg" alt="Produto 4">
+                    <h3>Mochila e estojo duplo</h3>
+                    <p>Lindo conjunto Turma da Monica</p>
+                    <p class="preco">R$ 90,00</p>
+                    <button class="btn__Loja">Comprar</button>
+                </div>
+
+                <div class="produto__Loja">
+                    <img src="img/mochilaBeijaflor.jpeg" alt="Produto 5">
+                    <h3>Mochila Beija-flor</h3>
+                    <p>Encanto de cores</p>
+                    <p class="preco">R$ 95,00</p>
+                    <button class="btn__Loja">Comprar</button>
+                </div>
+
+                <div class="produto__Loja">
+                    <img src="img/mochilaCamuflada.jpeg" alt="Produto 6">
+                    <h3>Mochila Camuflada</h3>
+                    <p>Preta camuflada com bolsos</p>
+                    <p class="preco">R$ 105,00</p>
+                    <button class="btn__Loja">Comprar</button>
+                </div>
+
+                <div class="produto__Loja">
+                    <img src="img/mochilaCoroa.jpeg" alt="Produto 7">
+                    <h3>Mochila Coroa dourada</h3>
+                    <p>Elegante e cheia de charme</p>
+                    <p class="preco">R$ 120,00</p>
+                    <button class="btn__Loja">Comprar</button>
+                </div>
+
+                <div class="produto__Loja">
+                    <img src="img/mochilaMinie.jpeg" alt="Produto 8">
+                    <h3>Mochila Minie</h3>
+                    <p>Com bordado personalizado</p>
+                    <p class="preco">R$ 120,00</p>
+                    <button class="btn__Loja">Comprar</button>
+                </div>
+
+                <div class="produto__Loja">
+                    <img src="img/capaProfessor.jpeg" alt="Produto 9">
+                    <h3>Capa de diario</h3>
+                    <p>Proteção para o diario de classe.</p>
+                    <p class="preco">R$ 75,00</p>
+                    <button class="btn__Loja">Comprar</button>
+                </div>
+
+                <div class="produto__Loja">
+                    <img src="img/bolsaEnfermagem.jpeg" alt="Produto 10">
+                    <h3>Bolsa Enfermagem</h3>
+                    <p>Praticidade e elegancia com bordado.</p>
+                    <p class="preco">R$ 130,00</p>
+                    <button class="btn__Loja">Comprar</button>
+                </div>
+
+                <div class="produto__Loja">
+                    <img src="img/bolsaPortaNovelos.jpeg" alt="Produto 11">
+                    <h3>Bolsa Novelos</h3>
+                    <p>Organização até na hora de fazer arte.</p>
+                    <p class="preco">R$ 60,00</p>
+                    <button class="btn__Loja">Comprar</button>
+                </div>
+
+                <div class="produto__Loja">
+                    <img src="img/necessaireEnfermagem.jpeg" alt="Produto 12">
+                    <h3>Necessaire Enfermagem</h3>
+                    <p>LInda necessaire profissão</p>
+                    <p class="preco">R$ 60,00</p>
+                    <button class="btn__Loja">Comprar</button>
+                </div>
+                <div class="produto__Loja">
+                    <img src="img/kitJeansCompleto.jpg" alt="Produto 13">
+                    <h3>Conjunto de Bolsas Jeans</h3>
+                    <p>Elegancia com muito estilo e coreâ</p>
+                    <p class="preco">R$ 190,00</p>
+                    <button class="btn__Loja">Comprar</button>
+                </div>
+                <div class="produto__Loja">
+                    <img src="img/BolsaRosa.jpg" alt="Produto 14">
+                    <h3>Bolsa Praia Rosa</h3>
+                    <p>Um charme ate para ir a praia.</p>
+                    <p class="preco">R$ 70,00</p>
+                    <button class="btn__Loja">Comprar</button>
+                </div>
+                <div class="produto__Loja">
+                    <img src="img/malaVermelha.jpg" alt="Produto 15">
+                    <h3>Mala de Viagem</h3>
+                    <p>Estilosa para viagem </p>
+                    <p class="preco">R$ 125,00</p>
+                    <button class="btn__Loja">Comprar</button>
+                </div>
+                <div class="produto__Loja">
+                    <img src="img/kitAventalTouca.jpg" alt="Produto 16">
+                    <h3>Kit Touca e Avental</h3>
+                    <p>Personalizada a pedido do cliente</p>
+                    <p class="preco">R$ 68,00</p>
+                    <button class="btn__Loja">Comprar</button>
                 </div>
             </div>
         </section>
+         <!-- botão voltar ao topo-->
+         <div class="voltar_topo">
+            <a href="#topo">
+                <img src="./img/up-arrow_7883720.png" alt="Seta voltar ao topo da pagina" title="Voltar ao topo">
+            </a>
+        </div>
     </main>
-    <footer>
-        <div>
-            <img src="./img/logoChris.png" width="48px" alt="Logo da loja">
-            <p>Ateliê da Chris</p>
-            <p>Endereço: Av. Copacabana, 520 Loja 3 Bal. Monte Carlo </p>
+    <footer id="footer">
+        <section id="rodape">
+        <div class="copyright"> Desenvolvido por <a href="https://github.com/VaniaGodoy/siteDescodificadas"
+                target="_blank">@Vania
+                Godoy</a> na trilha2 do Descodificadas 2023/24 ♥
         </div>
+        </section>
+    </footer >
 
-        <div>
-            <strong class="titulo">Links rápidos</strong>
-            <nav>
-                <a href="#inicio">Início</a>
-                <a href="#quemSomos">Quem somos</a>
-                <a href="#produtos">Produtos</a>
-                <a href="#localizacao">Localização</a>
-                <a href="contato.html">Contato</a>
-                <a href="nossaLoja.html">Nossa Loja</a>
-            </nav>
-        </div>
-
-        <div>
-            <strong class="titulo">Encontre-nos</strong>
-            <p><a class="botaoRS" href="https://wa.me/5513996025559" target="_blank">WhatsApp</a></p>
-            <p><a class="botaoRS" href="https://www.facebook.com/ateliedachris2" target="_blank">Facebook</a></p>
-            <p><a class="botaoRS" href="https://www.instagram.com/ateliedachris.oficial/" target="_blank">Instagram</a>
-            </p>
-
-        </div>
-    </footer>
-    <div id="copyright">
-        Desenvolvido por <a href="https://github.com/VaniaGodoy/siteDescodificadas" target="_blank">@Vania Godoy</a> na
-        trilha Descodificadas ♥
-    </div>
-    <script src="#"></script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>

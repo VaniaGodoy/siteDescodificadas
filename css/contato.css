@@ -1,0 +1,85 @@
+section.titulo {
+    margin-top: 9rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.titulo__contato {
+    font-weight: bold;
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+    /* 32px */
+    color: #e53ba4;
+    text-align: center;
+    margin-top: 2rem;
+}
+section.form {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.paragrafo__contato{
+    line-height: 1.2rem;
+    color:#8980a3;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: .9rem;
+    text-align: center;
+}
+
+
+p.sugestao {
+    text-align: center;
+    font-weight: 100;
+    font-size: 1rem;
+    padding: 12px;
+}
+
+.form-grupo {
+    width: auto;
+    height: auto;
+    margin-bottom: 30px;
+
+}
+
+label {
+    display: flex;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    gap: 5px;
+}
+
+#nome,
+#email,
+#telefone {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.btn-contato {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(245, 115, 167);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+    font-weight: bold;
+    align-content: center;
+}
+
+.btn-contato:hover {
+    background-color: rgb(250, 41, 124);
+}
