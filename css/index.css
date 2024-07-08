@@ -11,22 +11,19 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    /* Usando a fonte Roboto para o texto */
     background-color: #fdfafc;
     color: #8980a3;
     overflow-x: hidden;
-    /* Evitando a rolagem horizontal */
 }
 
 #inicio {
     background: linear-gradient(to right, #0d0e10, #E46286 90%);
-    box-shadow: 0 0 20px #938a8a;
+    box-shadow: 0 0 20px #fbfafa;
     border-radius: 5px;
     width: auto;
     height: 12vh;
     display: flex;
     align-items: center;
-    /* Alinha verticalmente os itens */
     top: .13rem;
     margin-left: .2rem;
     justify-content: space-evenly;
@@ -44,7 +41,7 @@ body {
     padding: .5rem;
     margin-left: 1rem;
     color: #dc066a;
-    -webkit-text-stroke: .01rem #ddb6c7;
+    -webkit-text-stroke: .01rem #f8f3f5;
     text-align: center;
     text-transform: uppercase;
 }
@@ -61,7 +58,6 @@ body {
     width: 350px;
     height: 32px;
     padding-right: 3x;
-    /* Espaço para a imagem */
     font-size: 14px;
 }
 
@@ -71,9 +67,7 @@ body {
     top: 50%;
     transform: translateY(-50%);
     width: 20px;
-    /* Ajuste o tamanho conforme necessário */
     height: 20px;
-    /* Ajuste o tamanho conforme necessário */
     cursor: pointer;
 }
 
@@ -87,9 +81,7 @@ body {
     line-height: 1.5rem;
     font-weight: 600;
     font-size: 2.6rem;
-    /* 38px */
     margin-bottom: 2rem;
-    /* 32px */
     color: #8980a3;
 }
 
@@ -108,8 +100,8 @@ body {
 .mySlides img {
     vertical-align: middle;
     border-radius: 1%;
-    width: 50%;
-    height: 30rem;
+    width: 35%;
+    height: 35rem;
     margin-bottom: 1rem;
 }
 
@@ -162,9 +154,7 @@ body {
 .titulo__quemSomos {
     font-weight: 600;
     font-size: 2.6rem;
-    /* 38px */
     margin-bottom: 2rem;
-    /* 32px */
     color: #e53ba4;
 }
 
@@ -187,16 +177,13 @@ body {
 
 #apresentacao {
     padding: 2rem;
-    /* 14px 80px */
     text-align: center;
 }
 
 .titulo__apresentacao {
     font-weight: 600;
     font-size: 2.6rem;
-    /* 38px */
     margin-bottom: 2rem;
-    /* 32px */
     color: #e53ba4;
 }
 
@@ -295,13 +282,10 @@ body {
 .btn__album {
     background-color: rgb(250, 41, 124);
     border-radius: 0.5rem;
-    /* 8px */
     color: #FFFFFF;
     padding: 0.9rem 2.1rem;
-    /* 15px 35px */
     text-decoration: none;
     font-size: 0.9rem;
-    /* 15px */
 }
 
 .btn__album:hover {
@@ -319,13 +303,11 @@ body {
 
 #localizacao iframe {
     border-radius: 4px;
-    /* 5px */
 }
 
 .titulo__localizacao {
     font-weight: 600;
     font-size: 1.375rem;
-    /* 22px */
     color: #e53ba4;
 }
 
@@ -343,7 +325,6 @@ body {
     background-color: transparent;
     color: #0a73f3;
     font-size: 0.9375rem;
-    /* 15px */
     text-decoration: none;
 }
 
@@ -369,7 +350,6 @@ body {
     height: 12vh;
     display: flex;
     align-items: center;
-    /* Alinha verticalmente os itens */
     margin-left: .28rem;
     justify-content: space-around;
 }

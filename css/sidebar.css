@@ -1,13 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-/* Resetando as margens, o padding e configurando a caixa de modelo de todos os elementos HTML */
-html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'roboto' , sans-serif;
-}
-
+/* estulizando o sidebar */
 .sidenav {
     height: 88%;
     width: 0;
